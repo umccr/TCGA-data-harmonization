@@ -1,0 +1,15 @@
+######################
+# Generic .gitignore #
+#####################
+
+# OS generated files #
+######################
+.DS_Store
+
+# Big data files #
+######################
+expression/data/*
+
+# Redundant documents #
+######################
+
