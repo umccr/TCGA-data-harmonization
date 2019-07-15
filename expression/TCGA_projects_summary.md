@@ -1,7 +1,7 @@
 # TCGA projects summary
 
 
-The table below summarises [TCGA](https://portal.gdc.cancer.gov/)  samples for which expression data are available across the **33 cancer types**. The criteria for excluding the samples are described in  [Data clean-up](README.md#data-clean-up) section and are based on the *Merged Sample Quality Annotations* file **[merged_sample_quality_annotations.tsv](http://api.gdc.cancer.gov/data/1a7d7be8-675d-4e60-a105-19d4121bdebf)** from [TCGA Pan-Cancer Clinical Data Resource](https://gdc.cancer.gov/about-data/publications/PanCan-Clinical-2018).
+The table below summarises [TCGA](https://portal.gdc.cancer.gov/) samples for which expression data are available across **33 cancer types**. The criteria for excluding the samples are described in  [Data clean-up](README.md#data-clean-up) section and are based on the *Merged Sample Quality Annotations* file **[merged_sample_quality_annotations.tsv](http://api.gdc.cancer.gov/data/1a7d7be8-675d-4e60-a105-19d4121bdebf)** from [TCGA Pan-Cancer Clinical Data Resource](https://gdc.cancer.gov/about-data/publications/PanCan-Clinical-2018).
 
 
 No | Project | Name | Tissue code\* | Total samples no. | Excluded | Included
