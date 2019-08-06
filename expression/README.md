@@ -107,7 +107,7 @@ The description of **[TCGA barcodes](https://docs.gdc.cancer.gov/Encyclopedia/pa
 
 ### Data clean-up
 
-The expression read count data from each of the 33 cancer types was then cleaned based on the quality metrics provided in the *Merged Sample Quality Annotations* file **[merged_sample_quality_annotations.tsv](http://api.gdc.cancer.gov/data/1a7d7be8-675d-4e60-a105-19d4121bdebf)** from [TCGA Pan-Cancer Clinical Data Resource](https://gdc.cancer.gov/about-data/publications/PanCan-Clinical-2018).
+The expression read count data from each of the 33 cancer types was then cleaned based on the quality metrics provided in the *Merged Sample Quality Annotations* file **[merged_sample_quality_annotations.tsv](http://api.gdc.cancer.gov/data/1a7d7be8-675d-4e60-a105-19d4121bdebf)** from [TCGA PanCanAtlas initiative webpage](https://gdc.cancer.gov/about-data/publications/pancanatlas).
 
 The **exclusion criteria** (rather rigorous to minimise data variation due to unwanted factors) are listed in the table below. The samples were excluded if at least one of the criterium is meet.
 
