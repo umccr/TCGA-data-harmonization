@@ -45,7 +45,7 @@ There are expression data from **33 cancer types** (<*projects*>) publically ava
 Download and prepare the [TCGA](https://portal.gdc.cancer.gov/) expression read **count data** for each of the **33 cancer type** (<*project*>, see [TCGA projects summary table](./TCGA_projects_summary.md)) using the [TCGAbiolinks_transcriptome_profiling_data.R](https://github.com/umccr/TCGA-data-prep/blob/master/TCGAbiolinks_transcriptome_profiling_data.R) script described [here](https://github.com/umccr/TCGA-data-prep/blob/master/TCGAbiolinks_transcriptome_profiling_data.md). The [TCGAbiolinks](http://bioconductor.org/packages/release/bioc/vignettes/TCGAbiolinks/inst/doc/index.html) package is used to download the most recent data files by accessing the [National Cancer Institute](https://www.cancer.gov/) (NCI) [GDC](https://gdc.cancer.gov/about-data/publications/pancanatlas) thorough its [GDC Application Programming Interface](https://gdc.cancer.gov/developers/gdc-application-programming-interface-api) (API).
 
 ```
-Rscript $scripts/TCGAbiolinks_transcriptome_profiling_data.R --out_dir <project> --project_id TCGA-<project> --tissue 1 --workflow Counts
+Rscript TCGAbiolinks_transcriptome_profiling_data.R --out_dir <project> --project_id TCGA-<project> --tissue 1 --workflow Counts
 ```
 
 NOTE, in case of the Acute Myeloid Leukaemia (LAML) the `--tissue` argument was set to `3` (Primary Blood Derived Cancer - Peripheral Blood).
